@@ -1,7 +1,9 @@
 transformers
+scipy
 accelerate
 bitsandbytes
 peft
 tabulate
 jupyterlab
 openai
+tlr
