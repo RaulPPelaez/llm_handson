@@ -65,8 +65,8 @@ pip install huggingface_hub
 export HUGGINGFACE_MODEL="openchat/openchat_3.5"
 python download.py
 ```
-
-Then, run the docker image with the mounted weights:  
+Then, before building the docker image, comment the `RUN python download.py` line in the Dockerfile.  
+Finally, run the docker image with the mounted weights:  
 ```shell
 docker run --gpus 0 -p 8080:80 -v ~/.cache/huggingface:/root/.cache/huggingface llm_server
 ```
