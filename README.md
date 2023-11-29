@@ -5,6 +5,7 @@ Open the different notebooks and follow along. The intended order is:
 1. `huggingface.ipynb`: How to use a LLM from the HuggingFace model hub.
 2. `prompt_engineering.ipynb`: How to use prompt engineering to improve the quality of the LLM responses.
 3. `lora.ipynb`: Finetuning a model using QLoRA for a specific task.
+4. `rag.ipynb`: How to talk with a PDF using Retrieval Augmented Generation (RAG).
 
 The directory `llm_server` contains a simple API that can be used to serve a LLM in a remote machine.
 
